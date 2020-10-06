@@ -15,7 +15,6 @@ exports.blogs_list = function (req, res) {
             {
                 model: User
             }],
-
         }).then(blogs => {
             // console.log("All blogs:", JSON.stringify(blogs, null, 4));
             // res.json(blogs);
